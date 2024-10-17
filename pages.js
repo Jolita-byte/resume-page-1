@@ -5,7 +5,7 @@ const repoURL = "https://github.com/Jolita-byte/jolita-byte.github.io.git";
 ghpages.publish(
   pathname,
   {
-    branch: "Jolita-page-1",
+    branch: "master",
     repo: repoURL,
   },
   (err) => {
